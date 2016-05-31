@@ -1,13 +1,17 @@
 #库存控制（Inventory Control）
+
 JSP结合Microsoft SQL Server数据库实现。一个公司希望为控制它的库存建立一个数据库，库存中的产品被分为几类，如服装、食品和文具。当产品需要从供应商那里重新订购时，工作人员需要提出一个购买订单。跟踪记录要提供买进、卖出的货物以及其他的费用。
 
 主要功能模块有工作人员登录模块，客户登录模块，提出购买订单模块，填写购买订单模块，购买订单模块，确定交易模块，增加产品模块，验收货物模块，填写验收产品模块，发货模块，客户注册模块，客户购买模块，填写客户订单模块，历史购买模块，客户信息修改模块等。
+
 ##目录内容
+
 - code（源代码）
 - data（数据文件）
 - sql（SQL语句文件）
 
 ##代码解释
+
 - index.jsp
 
 网站主页，点击工作人员登录还是客户登录。
@@ -142,3 +146,66 @@ JSP结合Microsoft SQL Server数据库实现。一个公司希望为控制它的
 接收客户信息、密码、收货地址、电话号码，判断客户注册是否合法。
 
 操作结果：客户注册合法，增加记录到客户表User，跳转到到user-login.jsp，否则重定向到user-register.jsp。
+
+## 流程图
+
+![流程图][1]
+
+## 用户手册
+
+- 本项目需要在前台开发工具NetBeans IDE 8.0.2和后台数据库Microsoft SQL Server 2014结合下运行。
+- 当Microsoft SQL Server 2014连接到服务器、NetBeans IDE 8.0.2服务连接到数据库库存控制的时候，在NetBeans IDE 8.0.2点击项目inventoryControl中的index.jsp并右击选择运行文件，NetBeans IDE 8.0.2即可运行inventoryControl项目。以下为项目运行后的界面，通过点击工作人员登录或者客户登录进入相应的登录页面。
+
+![首页][2]
+
+- 根据每一步的提示，完成相应的操作。
+- 关闭浏览器退出。
+
+## 测试结果
+
+1、通过《数据库原理及应用》课程设计，充分实践了数据库基本表的创建、数据查询、数据更新等操作。
+
+2、购买订单人员有权根据订货点水平对产品表中的产品提出购买订单和对自己提出的购买订单进行删除操作。
+
+![提出购买订单][3]
+
+![购买订单][4]
+
+3、确定交易人员有权对所有购买订单人员提出的购买订单进行交易和删除操作之外，还有权增加产品到产品表。
+
+![确定交易][5]
+
+![增加产品][6]
+
+4、验收货物人员有权根据购买产品是否入库来验收货物。
+
+![验收货物][7]
+
+5、发货人员有权对客户订单进行发货操作。
+
+![发货][8]
+
+6、客户不仅有权购买产品、查看自己的历史购买，还有权修改个人信息。
+
+![客户购买][9]
+
+![我的历史购买][10]
+
+![客户信息修改][11]
+
+7、新客户通过注册获取客户所以权限。
+
+![客户注册][12]
+
+  [1]: https://github.com/basfed/inventory-control/blob/master/images/flow-chart.png
+  [2]: https://github.com/basfed/inventory-control/blob/master/images/home.png
+  [3]: https://github.com/basfed/inventory-control/blob/master/images/1.png
+  [4]: https://github.com/basfed/inventory-control/blob/master/images/2.png
+  [5]: https://github.com/basfed/inventory-control/blob/master/images/3.png
+  [6]: https://github.com/basfed/inventory-control/blob/master/images/4.png
+  [7]: https://github.com/basfed/inventory-control/blob/master/images/5.png
+  [8]: https://github.com/basfed/inventory-control/blob/master/images/6.png
+  [9]: https://github.com/basfed/inventory-control/blob/master/images/7.png
+  [10]: https://github.com/basfed/inventory-control/blob/master/images/8.png
+  [11]: https://github.com/basfed/inventory-control/blob/master/images/9.png
+  [12]: https://github.com/basfed/inventory-control/blob/master/images/10.png
