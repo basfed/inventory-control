@@ -155,7 +155,7 @@ JSP 结合 Microsoft SQL Server 数据库实现。一个公司希望为控制它
 
 1、本项目需要在前台开发工具 NetBeans IDE 8.0.2 和后台数据库 Microsoft SQL Server 2014 结合下运行。
 
-2、当 Microsoft SQL Server 2014 连接到服务器、NetBeans IDE 8.0.2 服务连接到数据库库存控制的时候，在 NetBeans IDE 8.0.2 点击项目inventoryControl 中的 index.jsp 并右击选择运行文件，NetBeans IDE 8.0.2 即可运行 inventoryControl 项目。以下为项目运行后的界面，通过点击工作人员登录或者客户登录进入相应的登录页面。
+2、当 Microsoft SQL Server 2014 连接到服务器、NetBeans IDE 8.0.2 服务连接到数据库库存控制的时候，在 NetBeans IDE 8.0.2 点击项目 inventoryControl 中的 index.jsp 并右击选择运行文件，NetBeans IDE 8.0.2 即可运行 inventoryControl 项目。以下为项目运行后的界面，通过点击工作人员登录或者客户登录进入相应的登录页面。
 
 ![首页][2]
 
