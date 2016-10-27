@@ -8,6 +8,7 @@ JSP 结合 Microsoft SQL Server 数据库实现。一个公司希望为控制它
 
 - code（源代码）
 - data（数据文件）
+- document（配置说明文档）
 - sql（SQL语句文件）
 
 ##代码解释
@@ -199,15 +200,15 @@ JSP 结合 Microsoft SQL Server 数据库实现。一个公司希望为控制它
 
 ![客户注册][12]
 
-  [1]: https://github.com/bizhong/inventory-control/blob/master/images/flow-chart.png
-  [2]: https://github.com/bizhong/inventory-control/blob/master/images/home.png
-  [3]: https://github.com/bizhong/inventory-control/blob/master/images/1.png
-  [4]: https://github.com/bizhong/inventory-control/blob/master/images/2.png
-  [5]: https://github.com/bizhong/inventory-control/blob/master/images/3.png
-  [6]: https://github.com/bizhong/inventory-control/blob/master/images/4.png
-  [7]: https://github.com/bizhong/inventory-control/blob/master/images/5.png
-  [8]: https://github.com/bizhong/inventory-control/blob/master/images/6.png
-  [9]: https://github.com/bizhong/inventory-control/blob/master/images/7.png
-  [10]: https://github.com/bizhong/inventory-control/blob/master/images/8.png
-  [11]: https://github.com/bizhong/inventory-control/blob/master/images/9.png
-  [12]: https://github.com/bizhong/inventory-control/blob/master/images/10.png
+  [1]: https://github.com/bizhong/images/blob/master/inventory-control/program-flow-diagram.png
+  [2]: https://github.com/bizhong/images/blob/master/inventory-control/index.png
+  [3]: https://github.com/bizhong/images/blob/master/inventory-control/emp-purchase.png
+  [4]: https://github.com/bizhong/images/blob/master/inventory-control/emp-purchase-order.png
+  [5]: https://github.com/bizhong/images/blob/master/inventory-control/emp-confirm.png
+  [6]: https://github.com/bizhong/images/blob/master/inventory-control/emp-product-add.png
+  [7]: https://github.com/bizhong/images/blob/master/inventory-control/emp-accept.png
+  [8]: https://github.com/bizhong/images/blob/master/inventory-control/emp-deliver.png
+  [9]: https://github.com/bizhong/images/blob/master/inventory-control/user-purchase.png
+  [10]: https://github.com/bizhong/images/blob/master/inventory-control/user-purchase-history.png
+  [11]: https://github.com/bizhong/images/blob/master/inventory-control/user-information-modify.png
+  [12]: https://github.com/bizhong/images/blob/master/inventory-control/user-register.png
